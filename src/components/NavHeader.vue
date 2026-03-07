@@ -4,7 +4,7 @@
       <div class="nav-wrapper">
         <div class="logo">
           <router-link to="/">
-            <img src="/logo.png" alt="Logo" class="logo-img" />
+            <img src="@/assets/img/logo.svg" alt="宠物玩具Logo" class="logo-img" />
             <span class="logo-text">爱宠优品</span>
           </router-link>
         </div>

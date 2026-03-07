@@ -2,6 +2,7 @@
   <div class="home">
     <HeroSection />
     <ServicesSection />
+    <ProductsSection />
     <AboutSection />
     <ContactSection />
   </div>
@@ -10,6 +11,7 @@
 <script>
 import HeroSection from '../components/HeroSection.vue'
 import ServicesSection from '../components/ServicesSection.vue'
+import ProductsSection from '../components/ProductsSection.vue'
 import AboutSection from '../components/AboutSection.vue'
 import ContactSection from '../components/ContactSection.vue'
 
@@ -18,6 +20,7 @@ export default {
   components: {
     HeroSection,
     ServicesSection,
+    ProductsSection,
     AboutSection,
     ContactSection
   }

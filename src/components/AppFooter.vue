@@ -5,8 +5,8 @@
         <div class="footer-content">
           <div class="footer-section">
             <div class="footer-logo">
-              <img src="/logo.png" alt="Logo" class="footer-logo-img" />
-              <span class="footer-logo-text">企业名称</span>
+              <img src="@/assets/img/logo.svg" alt="宠物玩具Logo" class="logo-img" />
+              <span class="logo-text">爱宠优品</span>
             </div>
             <p class="footer-description">
               专业的技术服务提供商，致力于为客户创造价值，
@@ -277,6 +277,10 @@ export default {
   .footer-social {
     justify-content: center;
   }
+}
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
